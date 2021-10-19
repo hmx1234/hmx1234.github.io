@@ -1,97 +1,234 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>菜鸟教程(runoob.com)</title>
-<style>
-body
-{
-	background-color:blue;
-}
-	b{font-size:100%;}
-	li{
-	float:left;
-		width:70px;
-		list-style-type:none;
-		left:0;
-	}
-	div.neirong{
-	width:300px;
-		height:180px;
-		background-color:white;
-	
-	}
-	div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+<html lang="en">
 
-  padding: 5px;
-  background-color: #cae8ca;
-  border: 2px solid #4CAF50;
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Home</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
+  <link href="https:/fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="styleshee">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
+<style>
+.1234{
+display: flex;
 }
-h1
-{
-	color:orange;
-	text-align:center;
-}
-p
-{
-	font-family:"Times New Roman";
-	font-size:20px;
-}
-	table,td,th{
-	width:300px;
-	border:solid 2px black}
-	
-	
 </style>
 </head>
 
 <body>
 
-<h1 >NBA名宿--科比</h1>
-<h3>爱我或者恨我，两者必有其一。一直都这样。有人恨我的比赛，我的狂妄自大;恨我的后仰投篮，我对胜利的渴望;恨我是一名老将，恨我获得过总冠军。恨吧，用你的全部心思去恨吧。然而也有很多人深爱着我，理由却和恨我的人一样。--科比</h3>
-<div class="sticky">
-<ul class="sticky" style="list-style-type:none;height:25px;">
-	
-	<li>首页</li>
-	<li>集锦</li>
-	<li>图集</li>
-	<li>生涯</li>
-	<li>专题</li>
-	</ul>
-	</div>
-	<br>
-	<p>这是我的主页内容</p>
-	<div class="neirong">
-		<ul style="padding:5px  float:left;">
-			<li><b>传感器</b></li>
-			<br>
-			<li><b>通信原理</b></li>
-			<br>
-			<li><b>信息论</b></li>
-			<br>
-			<li><b>形势政策</b></li>
-			<br>
-			<li><b>数据挖掘</b></li>
-			
-		</ul>
-	</div>
-	<table>
-  <tr>
-    <th>作业名/th>
-    <th>内容</th>
-  </tr>
-  <tr>
-    <td>数据挖掘
-    <td>通信原理</td>
-  </tr>
-  <tr>
-    <td>信息论
-    <td>信息论
-  </tr>
-</table>
-	<p>爱我或者恨我，两者必有其一。一直都这样。有人恨我的比赛，我的狂妄自大;恨我的后仰投篮，我对胜利的渴望;恨我是一名老将，恨我获得过总冠军。恨吧，用你的全部心思去恨吧。然而也有很多人深爱着我，理由却和恨我的人一样。--科比</p>
+  <!-- start section navbar -->
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
+
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        </div>
+
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+
+        <ul class="nav-menu list-unstyled">
+          <li><a href="#header" class="smoothScroll">主页</a></li>
+          <li><a href="#about" class="smoothScroll">关于我</a></li>
+          <li><a href="#portfolio" class="smoothScroll">作品集</a></li>
+          <li><a href="#contact" class="smoothScroll">联系</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
+
+
+  <!-- start section header -->
+  <div id="header" class="home">
+
+    <div class="container">
+      <div class="header-content">
+        <h1>Welcome to my home</h1>
+</div>
+    </div>
+  </div>
+  <!-- End section header -->
+
+
+  <!-- start section about us -->
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="images/me1.jpg" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+
+            <p class="p-heading">姓名：胡铭新</p>
+			<p class="p-heading">学校：青岛科技大学</p>
+			<p class="p-heading">专业：物联网工程</p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end section about us -->
+
+
+  <!-- start section services -->  <!-- end section services -->
+
+  <!-- start section portfolio -->
+  <div id="portfolio" class="text-center paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-list">
+
+            <ul class="nav list-unstyled" id="portfolio-flters">
+              <li class="filter filter-active" data-filter=".all">一览</li>
+              <li class="filter" data-filter=".branding">暖色</li>
+              <li class="filter" data-filter=".mockups">活泼</li>
+              <li class="filter" data-filter=".uikits">合影</li>
+              <li class="filter" data-filter=".webdesign">温馨</li>
+              <li class="filter" data-filter=".photography">清新</li>
+            </ul>
+
+          </div>
+
+          <div class="portfolio-container">
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
+              <a class="popup-img" href="images/portfolio/1.jpg">
+                <img src="images/portfolio/1.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits photography">
+              <a class="popup-img" href="images/portfolio/2.jpg">
+                <img src="images/portfolio/2.jpg"  alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesig photographyn">
+              <a class="popup-img" href="images/portfolio/3.jpg">
+                <img src="images/portfolio/3.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign photography">
+              <a class="popup-img" href="images/portfolio/4.jpg">
+                <img src="images/portfolio/4.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits photography">
+              <a class="popup-img" href="images/portfolio/5.jpg">
+                <img src="images/portfolio/5.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
+              <a class="popup-img" href="images/portfolio/6.jpg">
+                <img src="images/portfolio/6.jpg" alt="img">
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section portfolio -->
+
+
+  <!-- start section journal -->  <!-- End section journal -->
+
+
+  <!-- start sectoion contact -->
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="contact-contact">
+
+              <h2 class="mb-30">我的联系方式</h2>
+
+              <ul class="contact-details">
+                <li><span>山东省</span></li>
+                <li><span>青岛市</span></li>
+                <li><span>崂山区</span></li>
+                <li><span>青岛科技大学</span></li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+          <img src="images/portfolio/5351.jpg" alt="img">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- start sectoion contact -->
+
+
+  <!-- start section footer -->  <!-- End section footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
+
 </html>
